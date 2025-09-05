@@ -49,7 +49,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
               print('Changing to: ${newLocale.languageCode}');
               onLocaleChange(newLocale);
 
-              // إظهار snackbar للتأكيد
+            
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
                   content: Text(isArabic ? 'Changed to English' : 'تم التغيير للعربية'),
